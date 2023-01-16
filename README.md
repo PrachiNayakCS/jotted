@@ -13,7 +13,7 @@ To make this possible, I have used a self hosted version of TinyMce, an open sou
 1. Make sure you have [python3](https://www.python.org/) with `pip` installed on your machine
 2. Install [Waitress](https://docs.pylonsproject.org/projects/waitress/en/stable/index.html) using the command: `pip install waitress`
     - Waitress is the production-quality pure-Python WSGI server used to run this application
-3. Download my application's distribution file from [here](https://github.com/code50/110072778/blob/main/project/Jotted/dist/flaskr-1.0.0-py3-none-any.whl) and open the folder containing the downloaded file in powershell or your terminal 
+3. Download my application's distribution file from [here](https://github.com/PrachiNayakCS/jotted/blob/main/dist/flaskr-1.0.0-py3-none-any.whl) and open the folder containing the downloaded file in powershell or your terminal 
    - **OR** you can also clone/download this project's repository from my GitHub account: https://github.com/PrachiNayakCS/jotted.git and change directory into this projects `dist` folder by using the command `cd project/Jotted/dist`
 4. Once you're in the folder containing the application's distribution file called `flaskr-1.0.0-py3-none-any.whl`:
    - run `pip install flaskr-1.0.0-py3-none-any.whl` - this step will ensure your machine has all the dependencies it needs to run the application
