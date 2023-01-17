@@ -116,7 +116,7 @@ The templates used in the routes/views are all controlled by the base.html templ
 
 - base.html
 
-  - `g` is automatically available in templates. Based on if `g.user` is set (from `load_logged_in_user`), either the username and a log out link are displayed, or links to register and log in are displayed. `url_for()` is also automatically available, and is used to generate URLs to views instead of writing them out manually. After the page title, and before the content, the template loops over each message returned by `get_flashed_messages()`. You used flash() in the views to show error messages, and this is the code that will display them.
+  - `g` is automatically available in templates. Based on if `g.user` is set (from `load_logged_in_user`), either the username and a log out link are displayed, or links to register and log in are displayed. `url_for()` is also automatically available, and is used to generate URLs to views instead of writing them out manually. After the page title, and before the content, the template loops over each message returned by `get_flashed_messages()`. I used flash() in the views to show error messages.
 
 - `login.html` and `register.html` are inside the auth folder in templates. Both use simple tailwind style forms with id and name fields matching the routes in python file `auth.py`
 
